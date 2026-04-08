@@ -1,4 +1,4 @@
-let valor = parseFloat(prompt("Valor do pedido:"));
+let valor = Number(prompt("Valor do pedido:"));
 let total = valor;
 let msg = "";
 

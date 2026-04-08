@@ -1,4 +1,4 @@
-let valor = parseFloat(prompt("Valor da compra:"));
+let valor = Number(prompt("Valor da compra:"));
 let regiao = prompt("1-Sul | 2-Sudeste | 3-Outras");
 
 let frete;

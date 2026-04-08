@@ -1,4 +1,4 @@
-let valorCarro = parseFloat(prompt("Digite o valor do carro:"));
+let valorCarro = Number(prompt("Digite o valor do carro:"));
 let formaPagamento = prompt("Escolha a forma de pagamento:\n1- PIX\n2- Cartão de Crédito\n3- Financiamento");
 
 let valorFinal, parcelas;

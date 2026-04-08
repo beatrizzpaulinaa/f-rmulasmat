@@ -1,4 +1,4 @@
-let salario = parseFloat(prompt("Salário bruto:"));
+let salario = Number(prompt("Salário bruto:"));
 let imposto;
 
 if (salario <= 2112) {

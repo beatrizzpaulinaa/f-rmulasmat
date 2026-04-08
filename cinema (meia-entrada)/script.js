@@ -1,4 +1,4 @@
-let idade = parseInt(prompt("Idade:"));
+let idade = Number(prompt("Idade:"));
 let estudante = prompt("É estudante? (sim/não)");
 
 let valor = 40;

@@ -1,5 +1,5 @@
-let salario = parseFloat(prompt("Salário:"));
-let parcela = parseFloat(prompt("Parcela:"));
+let salario = Number(prompt("Salário:"));
+let parcela = Number(prompt("Parcela:"));
 
 if (parcela > salario * 0.30) {
     alert("Empréstimo Negado");
